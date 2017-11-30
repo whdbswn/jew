@@ -38,9 +38,9 @@ head(crime)
 crime<-crime %>% filter(범죄별=="합계"&국적별=="합계")
 ggplot(data=crime,aes(x=year,y=count,group=1))+
   geom_line()
- https://github.com/whdbswn/jew/blob/master/unnamed-chunk-2-1.png
-```
 
+```
+https://github.com/whdbswn/jew/blob/master/unnamed-chunk-2-1.png
 
 ##### 위 그래프에서는 2006년, 2010년, 2014년을 기점으로 급감하는 추이를 보인다.
 
