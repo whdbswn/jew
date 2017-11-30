@@ -38,6 +38,7 @@ head(crime)
 crime<-crime %>% filter(범죄별=="합계"&국적별=="합계")
 ggplot(data=crime,aes(x=year,y=count,group=1))+
   geom_line()
+ https://github.com/whdbswn/jew/blob/master/unnamed-chunk-2-1.png
 ```
 
 
